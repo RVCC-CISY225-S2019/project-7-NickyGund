@@ -2,179 +2,164 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <title>About Me</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link href="https://fonts.googleapis.com/css?family=Sree+Krushnadevaraya" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href=css/nav-style.css> <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" media="print" href="print.css">
+	<meta charset="utf-8" />
+	<title>About Me</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link href="https://fonts.googleapis.com/css?family=Sree+Krushnadevaraya" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href=css/nav-style.css> <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" media="print" href="print.css">
 </head>
 
 <body>
-    <!-- skip link -->
-    <a href="#main" class="skip">Skip to main</a>
-    <!-- start of header -->
-    <header id="header" class="header">
-        <nav class="navbar">
-            <span class="navbar-toggle" id="js-navbar-toggle">
-                <i id="symbol-toggle" class="fas fa-bars"></i>
-            </span>
-            <a href="#header" class="logo">
-                <div class="logo-container">
-                    <img class="logo" src="images/logo-1913689.svg" alt="Company Logo">
-                    <h1 class="page-title">Web Dev I</h1>
-                </div>
-            </a>
-            <ul class="main-nav" id="js-menu">
-                <li>
-                    <a href="#main" class="nav-links">Main</a>
-                </li>
-                <li>
-                    <a href="#about-content" class="nav-links">About Me</a>
-                </li>
-                <li>
-                    <a href="#gallery" class="nav-links">My Photos</a>
-                </li>
-                <li>
-                    <a href="#story" class="nav-links">A Story</a>
-                </li>
-                <li>
-                    <a href="#form-container" class="nav-links">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+	<!-- skip link -->
+	<a href="#main" class="skip">Skip to main</a>
+	<!-- start of header -->
+	<header id="header" class="header">
+		<nav class="navbar">
+			<span class="navbar-toggle" id="js-navbar-toggle">
+				<i id="symbol-toggle" class="fas fa-bars"></i>
+			</span>
+			<a href="#header" class="logo">
+				<div class="logo-container">
+					<img class="logo" src="images/logo-1913689.svg" alt="Company Logo">
+					<h1 class="page-title">Web Dev I</h1>
+				</div>
+			</a>
+			<ul class="main-nav" id="js-menu">
+				<li>
+					<a href="#main" class="nav-links">Main</a>
+				</li>
+				<li>
+					<a href="#about-content" class="nav-links">About Me</a>
+				</li>
+				<li>
+					<a href="#gallery" class="nav-links">My Photos</a>
+				</li>
+				<li>
+					<a href="#story" class="nav-links">A Story</a>
+				</li>
+				<li>
+					<a href="#form-container" class="nav-links">Contact Me</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main id="main" tabindex="-1" class="main">
+
+		<section class="hero">
+			<div class="content">
+				<picture>
+					<source media="(min-width: 1024px)" srcset="images/nicky-lrg.jpg">
+					<source media="(min-width: 960px)" srcset="images/nicky-med.jpg">
+					<source media="(min-width: 640px)" srcset="images/nicky-small.jpg">
+					<source media="(min-width: 320px)" srcset="images/nicky-xsmall.jpg">
+
+					<img class="mypicture" src="images/nicky-small.jpg" alt="Me!">
+				</picture>
+				<p class="my-name">Nicky Gundersen</p>
+				<p class="my-location">Warren, NJ</p>
+			</div>
+		</section>
+		<section id="about-content" class="content">
+			<div class="about-content">
+				<div class="about-content">
+					<p class="iama">I want to be...</p>
+					<p class="my-info">A competent computer scientist! Possibly working in either
+						software development or computer security!</p>
+					<p class="iama">My favorite way to work is...</p>
+					<p class="my-info">Early in the morning, with caffeine and music.</p>
+					<p class="iama">In my free time, I like to...</p>
+					<p class="my-info">My favorite things to do include rock climbing, slacklining, hiking,
+						camping, as well as writing, drawing, and reading!</p>
+				</div>
+			</div>
+		</section>
+		<div class="back-to-top">
+			<a href="#">Back to Top</a>
+		</div>
+		<hr>
+		<section id="gallery" class="gallery">
+			<h1 class="gallery-title">A Collection of Fungi</h1>
+			<figure>
+				<picture>
+					<source media="(min-width: 1024px)" srcset="images/Amanita_muscaria-lrg.jpg">
+					<source media="(min-width: 960px)" srcset="images/Amanita_muscaria-med.jpg">
+					<source media="(min-width: 640px)" srcset="images/Amanita_muscaria-small.jpg">
+					<source media="(min-width: 320px)" srcset="images/Amanita_muscaria-xsmall.jpg">
+					<img class="mushroom1" src="images/Amanita_muscaria-small.jpg" alt="Cool mushroom">
+				</picture>
+				<figcaption>
+					This is a picture of two Amanita Muscaria's, one of the most famous poisoous mushrooms
+				</figcaption>
+			</figure>
+			<hr class="mobile-first">
+			<figure>
+				<picture>
+					<source media="(min-width: 1024px)" srcset="images/trametes_versicolor-lrg.jpg">
+					<source media="(min-width: 960px)" srcset="images/trametes_versicolor-med.jpg">
+					<source media="(min-width: 640px)" srcset="images/trametes_versicolor-small.jpg">
+					<source media="(min-width: 320px)" srcset="images/trametes_versicolor-xsmall.jpg">
+					<img class="mushroom2" src="images/trametes_versicolor-small.jpg" alt="A turkey tail..perhaps">
+				</picture>
+				<figcaption>
+					This is a picture of a Trametes Versicolor, also known as "Turkey Tail", growing on a bench.
+				</figcaption>
+			</figure>
+			<hr class="mobile-first">
+			<figure>
+				<picture>
+					<source media="(min-width: 1024px)" srcset="images/artomyces_pyxidatus-lrg.jpg">
+					<source media="(min-width: 960px)" srcset="images/artomyces_pyxidatus-med.jpg">
+					<source media="(min-width: 640px)" srcset="images/artomyces_pyxidatus-small.jpg">
+					<source media="(min-width: 320px)" srcset="images/artomyces_pyxidatus-xsmall.jpg">
 
 
+					<img class="mushroom3" src="images/artomyces_pyxidatus-small.jpg" alt="Coral!">
+				</picture>
+				<figcaption>
+					This is a picture of an Artomyces Pyxidatus, more commonly known as a coral mushroom
+				</figcaption>
+			</figure>
 
-
-    <main id="main" tabindex="-1" class="main">
-
-        <section class="content">
-            <div class="content">
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="images/nicky-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/nicky-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/nicky-small.jpg">
-                    <source media="(min-width: 320px)" srcset="images/nicky-xsmall.jpg">
-
-                    <img class="mypicture" src="images/nicky-small.jpg" alt="Me!">
-                </picture>
-                <p class="my-name">Nicky Gundersen</p>
-                <p class="my-location">Warren, NJ</p>
-            </div>
-        </section>
-        <section id="about-content" class="about-content">
-            <div class="about-content">
-                <div class="about-content">
-                    <p class="iama">I want to be...</p>
-                    <p class="my-info">A competent computer scientist! Possibly working in either
-                        software development or computer security!</p>
-                    <p class="iama">My favorite way to work is...</p>
-                    <p class="my-info">Early in the morning, with caffeine and music.</p>
-                    <p class="iama">In my free time, I like to...</p>
-                    <p class="my-info">My favorite things to do include rock climbing, slacklining, hiking,
-                        camping, as well as writing, drawing, and reading!</p>
-                </div>
-            </div>
-        </section>
-        <div class="back-to-top">
-            <a href="#">Back to Top</a>
-        </div>
-        <hr>
-        <section id="gallery" class="gallery">
-            <h1 class="gallery-title">A Collection of Fungi</h1>
-            <figure>
-
-                <picture>
-
-                    <source media="(min-width: 1024px)" srcset="images/Amanita_muscaria-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/Amanita_muscaria-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/Amanita_muscaria-small.jpg">
-                    <source media="(min-width: 320px)" srcset="images/Amanita_muscaria-xsmall.jpg">
-                    <img class="mushroom1" src="images/Amanita_muscaria-small.jpg" alt="Cool mushroom">
-                </picture>
-                <figcaption>
-                    This is a picture of two Amanita Muscaria's, one of the most famous poisoous mushrooms
-                </figcaption>
-
-            </figure>
-
-            <hr class="mobile-first">
-            <figure>
-
-                <picture>
-
-
-
-                    <source media="(min-width: 1024px)" srcset="images/trametes_versicolor-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/trametes_versicolor-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/trametes_versicolor-small.jpg">
-                    <source media="(min-width: 320px)" srcset="images/trametes_versicolor-xsmall.jpg">
-                    <img class="mushroom2" src="images/trametes_versicolor-small.jpg" alt="A turkey tail..perhaps">
-                </picture>
-                <figcaption>
-                    This is a picture of a Trametes Versicolor, also known as "Turkey Tail", growing on a bench.
-                </figcaption>
-            </figure>
-
-            <hr class="mobile-first">
-            <figure>
-
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="images/artomyces_pyxidatus-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/artomyces_pyxidatus-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/artomyces_pyxidatus-small.jpg">
-                    <source media="(min-width: 320px)" srcset="images/artomyces_pyxidatus-xsmall.jpg">
-
-
-                    <img class="mushroom3" src="images/artomyces_pyxidatus-small.jpg" alt="Coral!">
-                </picture>
-                <figcaption>
-                    This is a picture of an Artomyces Pyxidatus, more commonly known as a coral mushroom
-                </figcaption>
-            </figure>
-
-        </section>
-        <div class="back-to-top">
-            <a href="#">Back to Top</a>
-        </div>
-        <hr class="mobile-first">
-
-
-        <article id="story" class="story">
-            <h1>
-                English 2 Paper
-            </h1>
-            <h2>
-                Heroin and Jazz
-            </h2>
-            <div id="story-body" class="story-body">
-                <p>The early 1900’s were a time of radical change and expressionism, with the abolishment of slavery lingering in the shadows, in addition to the struggles presented with the Great Depression and two World Wars, there were many external pressures facing every individual. These troublesome tensions caused the birth of a cultural revival in Harlem, which gave life to one of the most influential genres of music: jazz. For many aspiring musicians, jazz was an escape from the everyday struggles they faced, giving them freedom to play anything they wanted. Although this style of music served as a way to cope, it also brought on an additional issue: drug addiction. This issue is brought to light in James Baldwin’s “Sonny’s Blues”, in which Sonny’s struggles of heroin addiction and his dream to become a jazz pianist are revealed. This issue of drug addiction in jazz artists is more complex as it may seem, as a deeper understanding of what heroin does to the creative process and the reasons behind taking it help solidify Sonny’s actions as well as Sonny’s brothers worries.</p>
-                <p>At first glance, it may seem as if Sonny is a young, ignorant kid that happened to get involved with a bad crowd. In order to better understand Sonny’s reasons for taking heroin and hard drugs, one must look at the reasons why so many young aspiring jazz musicians got involved with such drugs. To gain a true understanding of this issue, one must look at the research conducted by Charles Winick in “The Use of Drugs by Jazz Musicians”, who questioned 357 jazz musicians in New York City to get a better understanding of their drug use(241). In his research, Winick found empirical evidence on the reason behind why many aspiring jazz musicians decided to take heroin:
-                    respondents observed that a few of the undisputed geniuses of modern jazz were widely known as heroin addicts, and there is a reason to believe that some younger musicians may have begun using the drug on the basis of some kind of magical identification with their heroes and the assumption that they would play better if they, too, were drug users(246)
-                    As can be seen, many young aspiring artists looked up to their most beloved idols, such as Charlie Parker, Billie Holiday, Jackie Mclean, and Art Taylor, who were all addicted to heroin(Singer 17). As a young teen, it seems like the recipe to become one of the greatest jazz musicians is to live just like them, even if that means shooting up.</p>
-                <p>In addition to looking up to and wanting to act like their idols, there are other factors to why one would take heroin if they are aspiring to be one of the greats. In addition to Winicks’ research, a journal article titled “Jazz and substance abuse: Road to creative genius or pathway to premature death”, written by Gerald H. Tolson and Michael J. Cuyjet helps reinforce the reasons behind jazz musicians’ heroin abuse. In their research, they cite anecdotal evidence from jazz musicians. One musician, Red Rodney, claims that “Heroin was our badge. It was the thing that gave us membership in a unique club, and for this membership we gave up everything else in the world. It ruined most people”(Tolson 531). As Rodney states, taking heroin allowed them to be accepted into places they wouldn’t have been otherwise, and enabled them to feel embraced and ‘cool’ among their friends.</p>
-                <p>These findings help one better understand the reasons’ behind heroin use in aspiring jazz musicians. As a result, these explanations from past users during the time allows one to better understand Sonny’s actions throughout the short story, as well as help explain why his brother is so worried about him when he tells him he wants to become a jazz musician. After finding out more about heroin use in aspiring artists, Sonny’s reasons for getting into heroin become more clear through a conversation with his brother:
-                    “Well, look, Sonny, I’m sorry, don’t get mad. I just don’t altogether get it, that’s all. Name somebody-you know, a jazz musician you admire”
-                    “Bird.”
-                    “Who?’
-                    “Bird! Charlie Parker! Don’t they teach you nothing in the goddamn army?”(Baldwin 572).
-                    This conversation reveals one of the driving forces behind Sonny’s and many other jazz performers’ drug addiction; their idols. With the drive to live just like one of the greatest jazz soloists of all time, and the desire to be accepted into a club and associated with the scene, it becomes clear why Sonny and many others would get involved with such a damaging substance.
-                </p>
-                <p>Additionally, this idolization that Sonny has for jazz musicians helps explain his brothers extreme distaste for jazz. Having heard about the troubles that his father has gotten into while horsing around jazz clubs, when Sonny’s brother first hears about his decision to become a jazz musician, his initial thought is:
-                    “Well, the word had never sounded as heavy, as real, as it sounded that afternoon in Sonny's mouth. I just looked at him and I was probably frowning a real frown by this time. I simply couldn’t see why on earth he’d want to spend his time hanging around nightclubs, clowning around on bandstands, while people pushed each other around a dance floor. It seemed-beneath him, somehow.”(Baldwin 572)
-                    Knowing that night clubs are full of rowdiness and trouble, Sonny’s brother has a bad taste in his mouth when he hears that his brother wants to become a jazz musician. This is due to the fact that he knows that many jazz artists get into trouble and end up in bad places, as his father calls them “good time people”(Baldwin 572). Sonny’s brother does not want Sonny to get involved in a dangerous crowd that would likely lead to drug addiction, so he becomes defensive and tries to convince Sonny to find alternative paths in life. Overall, a better understanding of the reasons behind jazz musicians heroin troubles helps further explain Sonny’s and his brother’s behavior and attitudes throughout the short story.</p>
-                <p>In addition to understanding the reasons behind why so many jazz musicians became heroin addicts, one must also look at what heroin can do to the creative process. Without thinking too much of it, heroin seems like a great way to inhibit one’s creativity and slow one’s progress in life, but this issue is necessary in understanding why so many famous jazz musicians were heroin addicts, as it has been shown to have helped them play some of the most influential music of their generation. From Winicks studies, his evidence shows that performers would only be on heroin if it was their usual performance ritual, and would have little effect on how they played, as it was regular for them(245). If taking heroin had no effect on their performance, one may wonder what it can do for the process of creating music. As stated in Winick’s research, citing empirical evidence from a jazz musician: “taking heroin [is like] going into a closet, It lets you concentrate and takes you away from everything. Heroin is a working drug, like the doctor who took it because he had a full schedule so he could concentrate better. It lets me concentrate on my sound”(Winick 245). Seeing as how heroin is a highly euphoric and relaxing drug, in addition to the fact that many jazz musicians are extremely busy touring around(Singer 19), it makes sense that taking it can help ease one away from an endless amount of stress and societal pressures, and help them tune in and focus solely on their sound.</p>
-                <p>Moreover, in addition to heroin helping jazz musicians focus on their sound and take them away from the stress of touring, one may also wonder what heroin can do to one’s creativity. To gain a better understanding of the relationship between heroin use and creativity, one must look at Mark D. Griffiths’ recent article “Drug Use And Creativity”, in which he looks at the relationship between substance use and creativity. Griffiths cites evidence that shows “it is more likely that substances act indirectly by enhancing experiences and sensitivity, and loosening conscious processes that might have an influence on the creative process”(2). While heroin may not exactly cause one to be more creative, it can facilitate an artist’s creative process by disconnecting them from their normal restraints of their own creative process. Griffiths’s findings ultimately show “psychoactive substances might contribute to a change of aesthetic experience, or enhanced creative problem solving”(2). What these findings highlight is that while heroin may not be the sole substance that causes one to be more creative, it can easily enhance ones already existent creativity, and possibly even help them flourish to become an original artist by relieving them from the mental barriers that come with composing music.
-                </p>
-                <p>Similarly, This idea is further reinforced in Raf Katigbak’s recent article “Heroin Is The Most Dangerous Way To Increase Your Creativity”, in which he interviews Dr. Alain Dagher, a neurobiologist at Montreal Neurological Institute and Hospital. Dagher sheds light on the correlation between drug use and creativity when he states “Part of creativity is being original. So drugs like cocaine, and perhaps heroin, have that ability to make you have original thoughts(4). Dagher helps reinforce Griffiths’ ideas’ that drug use can allow one to be more creative, due to the fact that it allows musicians to come up with more innovative thoughts by allowing them to strip themselves from their inhibitions when it comes to creating music.</p>
-                <p>Furthermore, a better comprehension of what heroin can do to the creative process helps one better understand why many prominent jazz musicians during the mid 1900’s used heroin as an outlet to create truly original music. In turn, knowing the effect that heroin can have on one’s creativity helps solidify Sonny's drug use and his brothers stresses throughout Baldwin’s short story. As shown when Sonny states “It’s not so much to play. It’s to stand it, to be able to make it at all. On any level...In order to keep from shaking to pieces”(Baldwin 579). Sonny’s dialogue reveals the relief he received by taking heroin, and how it helped him cope with the stresses of creating jazz music. Wanting to become a great jazz pianist, the many pressures Sonny faces when it comes to creating original music needs to be grounded with the substance that was flowing through almost all jazz musicians veins; heroin.
-                </p>
-                <p>Likewise, these reasonings behind Sonny’s drug use is exactly what his brother has trouble empathizing with. Sonny’s brother has a rough time understanding why Sonny is involved in a crowd full of heroin addled musicians, and doesn't think it could do him any good. This distaste for his brother’s drug use is shown when Sonny’s brother states “I didn’t like the way he carried himself, loose and dreamlike all the time, and I didn’t like his friends, and the music seemed to be merely an excuse for the life he led, it sounded just that weird and disordered”(Baldwin 575). As one can surmise, Sonny’s brother thinks that Sonny’s drug use has no correlation to the music he is creating or the stresses that comes with it. As research shows, Sonny’s and many other jazz musicians drug use was most likely to help them get through the creative process, and allow them to create truly original work without the constraints that are usually associated with creating music.</p>
-                <p>As can be seen, while one might think that heroin is an easily avoidable drug, this was not the case for many aspiring jazz musicians during the mid 1900’s. A better understanding of the nature of this drug helps solidify the many reasons that so many jazz artists started taking it, as it helped associate themselves with many influential people in a niche crowd, in addition to the fact that it assisted them in being more capable of creative and original thinking. Knowing that a better comprehension of the complex issue of heroin addiction helps illustrate Sonny’s and his brother’s actions throughout Baldwin's “Sonny’s Blues”. It may be easy to judge drug addicts seemingly avoidable choices, but as the case with most things, these issues are more complex than they seem. Just like Sonny’s own battles with his addiction, if heroin had not been running rampant through the jazz scene and associated with the countless artists that used it, music may not be the same as it is today.</p>
+		</section>
+		<div class="back-to-top">
+			<a href="#">Back to Top</a>
+		</div>
+		<hr class="mobile-first">
+		<article id="story" class="story">
+			<h1>
+				English 2 Paper
+			</h1>
+			<h2>
+				Heroin and Jazz
+			</h2>
+			<div id="story-body" class="story-body">
+				<p>The early 1900’s were a time of radical change and expressionism, with the abolishment of slavery lingering in the shadows, in addition to the struggles presented with the Great Depression and two World Wars, there were many external pressures facing every individual. These troublesome tensions caused the birth of a cultural revival in Harlem, which gave life to one of the most influential genres of music: jazz. For many aspiring musicians, jazz was an escape from the everyday struggles they faced, giving them freedom to play anything they wanted. Although this style of music served as a way to cope, it also brought on an additional issue: drug addiction. This issue is brought to light in James Baldwin’s “Sonny’s Blues”, in which Sonny’s struggles of heroin addiction and his dream to become a jazz pianist are revealed. This issue of drug addiction in jazz artists is more complex as it may seem, as a deeper understanding of what heroin does to the creative process and the reasons behind taking it help solidify Sonny’s actions as well as Sonny’s brothers worries.</p>
+				<p>At first glance, it may seem as if Sonny is a young, ignorant kid that happened to get involved with a bad crowd. In order to better understand Sonny’s reasons for taking heroin and hard drugs, one must look at the reasons why so many young aspiring jazz musicians got involved with such drugs. To gain a true understanding of this issue, one must look at the research conducted by Charles Winick in “The Use of Drugs by Jazz Musicians”, who questioned 357 jazz musicians in New York City to get a better understanding of their drug use(241). In his research, Winick found empirical evidence on the reason behind why many aspiring jazz musicians decided to take heroin:
+					respondents observed that a few of the undisputed geniuses of modern jazz were widely known as heroin addicts, and there is a reason to believe that some younger musicians may have begun using the drug on the basis of some kind of magical identification with their heroes and the assumption that they would play better if they, too, were drug users(246)
+					As can be seen, many young aspiring artists looked up to their most beloved idols, such as Charlie Parker, Billie Holiday, Jackie Mclean, and Art Taylor, who were all addicted to heroin(Singer 17). As a young teen, it seems like the recipe to become one of the greatest jazz musicians is to live just like them, even if that means shooting up.</p>
+				<p>In addition to looking up to and wanting to act like their idols, there are other factors to why one would take heroin if they are aspiring to be one of the greats. In addition to Winicks’ research, a journal article titled “Jazz and substance abuse: Road to creative genius or pathway to premature death”, written by Gerald H. Tolson and Michael J. Cuyjet helps reinforce the reasons behind jazz musicians’ heroin abuse. In their research, they cite anecdotal evidence from jazz musicians. One musician, Red Rodney, claims that “Heroin was our badge. It was the thing that gave us membership in a unique club, and for this membership we gave up everything else in the world. It ruined most people”(Tolson 531). As Rodney states, taking heroin allowed them to be accepted into places they wouldn’t have been otherwise, and enabled them to feel embraced and ‘cool’ among their friends.</p>
+				<p>These findings help one better understand the reasons’ behind heroin use in aspiring jazz musicians. As a result, these explanations from past users during the time allows one to better understand Sonny’s actions throughout the short story, as well as help explain why his brother is so worried about him when he tells him he wants to become a jazz musician. After finding out more about heroin use in aspiring artists, Sonny’s reasons for getting into heroin become more clear through a conversation with his brother:
+					“Well, look, Sonny, I’m sorry, don’t get mad. I just don’t altogether get it, that’s all. Name somebody-you know, a jazz musician you admire”
+					“Bird.”
+					“Who?’
+					“Bird! Charlie Parker! Don’t they teach you nothing in the goddamn army?”(Baldwin 572).
+					This conversation reveals one of the driving forces behind Sonny’s and many other jazz performers’ drug addiction; their idols. With the drive to live just like one of the greatest jazz soloists of all time, and the desire to be accepted into a club and associated with the scene, it becomes clear why Sonny and many others would get involved with such a damaging substance.
+				</p>
+				<p>Additionally, this idolization that Sonny has for jazz musicians helps explain his brothers extreme distaste for jazz. Having heard about the troubles that his father has gotten into while horsing around jazz clubs, when Sonny’s brother first hears about his decision to become a jazz musician, his initial thought is:
+					“Well, the word had never sounded as heavy, as real, as it sounded that afternoon in Sonny's mouth. I just looked at him and I was probably frowning a real frown by this time. I simply couldn’t see why on earth he’d want to spend his time hanging around nightclubs, clowning around on bandstands, while people pushed each other around a dance floor. It seemed-beneath him, somehow.”(Baldwin 572)
+					Knowing that night clubs are full of rowdiness and trouble, Sonny’s brother has a bad taste in his mouth when he hears that his brother wants to become a jazz musician. This is due to the fact that he knows that many jazz artists get into trouble and end up in bad places, as his father calls them “good time people”(Baldwin 572). Sonny’s brother does not want Sonny to get involved in a dangerous crowd that would likely lead to drug addiction, so he becomes defensive and tries to convince Sonny to find alternative paths in life. Overall, a better understanding of the reasons behind jazz musicians heroin troubles helps further explain Sonny’s and his brother’s behavior and attitudes throughout the short story.</p>
+				<p>In addition to understanding the reasons behind why so many jazz musicians became heroin addicts, one must also look at what heroin can do to the creative process. Without thinking too much of it, heroin seems like a great way to inhibit one’s creativity and slow one’s progress in life, but this issue is necessary in understanding why so many famous jazz musicians were heroin addicts, as it has been shown to have helped them play some of the most influential music of their generation. From Winicks studies, his evidence shows that performers would only be on heroin if it was their usual performance ritual, and would have little effect on how they played, as it was regular for them(245). If taking heroin had no effect on their performance, one may wonder what it can do for the process of creating music. As stated in Winick’s research, citing empirical evidence from a jazz musician: “taking heroin [is like] going into a closet, It lets you concentrate and takes you away from everything. Heroin is a working drug, like the doctor who took it because he had a full schedule so he could concentrate better. It lets me concentrate on my sound”(Winick 245). Seeing as how heroin is a highly euphoric and relaxing drug, in addition to the fact that many jazz musicians are extremely busy touring around(Singer 19), it makes sense that taking it can help ease one away from an endless amount of stress and societal pressures, and help them tune in and focus solely on their sound.</p>
+				<p>Moreover, in addition to heroin helping jazz musicians focus on their sound and take them away from the stress of touring, one may also wonder what heroin can do to one’s creativity. To gain a better understanding of the relationship between heroin use and creativity, one must look at Mark D. Griffiths’ recent article “Drug Use And Creativity”, in which he looks at the relationship between substance use and creativity. Griffiths cites evidence that shows “it is more likely that substances act indirectly by enhancing experiences and sensitivity, and loosening conscious processes that might have an influence on the creative process”(2). While heroin may not exactly cause one to be more creative, it can facilitate an artist’s creative process by disconnecting them from their normal restraints of their own creative process. Griffiths’s findings ultimately show “psychoactive substances might contribute to a change of aesthetic experience, or enhanced creative problem solving”(2). What these findings highlight is that while heroin may not be the sole substance that causes one to be more creative, it can easily enhance ones already existent creativity, and possibly even help them flourish to become an original artist by relieving them from the mental barriers that come with composing music.
+				</p>
+				<p>Similarly, This idea is further reinforced in Raf Katigbak’s recent article “Heroin Is The Most Dangerous Way To Increase Your Creativity”, in which he interviews Dr. Alain Dagher, a neurobiologist at Montreal Neurological Institute and Hospital. Dagher sheds light on the correlation between drug use and creativity when he states “Part of creativity is being original. So drugs like cocaine, and perhaps heroin, have that ability to make you have original thoughts(4). Dagher helps reinforce Griffiths’ ideas’ that drug use can allow one to be more creative, due to the fact that it allows musicians to come up with more innovative thoughts by allowing them to strip themselves from their inhibitions when it comes to creating music.</p>
+				<p>Furthermore, a better comprehension of what heroin can do to the creative process helps one better understand why many prominent jazz musicians during the mid 1900’s used heroin as an outlet to create truly original music. In turn, knowing the effect that heroin can have on one’s creativity helps solidify Sonny's drug use and his brothers stresses throughout Baldwin’s short story. As shown when Sonny states “It’s not so much to play. It’s to stand it, to be able to make it at all. On any level...In order to keep from shaking to pieces”(Baldwin 579). Sonny’s dialogue reveals the relief he received by taking heroin, and how it helped him cope with the stresses of creating jazz music. Wanting to become a great jazz pianist, the many pressures Sonny faces when it comes to creating original music needs to be grounded with the substance that was flowing through almost all jazz musicians veins; heroin.
+				</p>
+				<p>Likewise, these reasonings behind Sonny’s drug use is exactly what his brother has trouble empathizing with. Sonny’s brother has a rough time understanding why Sonny is involved in a crowd full of heroin addled musicians, and doesn't think it could do him any good. This distaste for his brother’s drug use is shown when Sonny’s brother states “I didn’t like the way he carried himself, loose and dreamlike all the time, and I didn’t like his friends, and the music seemed to be merely an excuse for the life he led, it sounded just that weird and disordered”(Baldwin 575). As one can surmise, Sonny’s brother thinks that Sonny’s drug use has no correlation to the music he is creating or the stresses that comes with it. As research shows, Sonny’s and many other jazz musicians drug use was most likely to help them get through the creative process, and allow them to create truly original work without the constraints that are usually associated with creating music.</p>
+				<p>As can be seen, while one might think that heroin is an easily avoidable drug, this was not the case for many aspiring jazz musicians during the mid 1900’s. A better understanding of the nature of this drug helps solidify the many reasons that so many jazz artists started taking it, as it helped associate themselves with many influential people in a niche crowd, in addition to the fact that it assisted them in being more capable of creative and original thinking. Knowing that a better comprehension of the complex issue of heroin addiction helps illustrate Sonny’s and his brother’s actions throughout Baldwin's “Sonny’s Blues”. It may be easy to judge drug addicts seemingly avoidable choices, but as the case with most things, these issues are more complex than they seem. Just like Sonny’s own battles with his addiction, if heroin had not been running rampant through the jazz scene and associated with the countless artists that used it, music may not be the same as it is today.</p>
 
 
 
@@ -184,82 +169,82 @@
 
 
 
-                <p>
-                    Works Cited
-                    Baldwin, James. “Sonny's Blues.” Literature: The Human Experience, 12th ed., Bedford/St. Martin's, 2016, pp. 561–585.
-                    Griffiths, Mark D. “Drug Use And Creativity.” Psychology Today, Sussex Publishers, 21 Feb. 2017, www.psychologytoday.com/us/blog/in-excess/201702/drug-use-and-creativity.
-                    Katigbak, Raf. “Heroin Is the Most Dangerous Way to Increase Your Creativity.” Vice, 24 Apr. 2014, www.vice.com/en_us/article/8gd8bx/heroin-is-the-most-dangerous-way-to-increase-your-creativity.
-                    Singer, Merrill, and Greg Mirhej. “High Notes.” Journal of Ethnicity in Substance Abuse, vol. 5, no. 4, 2006, pp. 1–38.
-                    Tolson, Gerald H., and Michael J. Cuyjet. “Jazz and Substance Abuse: Road to Creative Genius or Pathway to Premature Death.” International Journal of Law and Psychiatry, vol. 30, no. 6, 2007, pp. 530–538. ScienceDirect.
-                    Winick, Charles. “The Use of Drugs by Jazz Musicians.” Social Problems, vol. 7, no. 3, 1959, pp. 240–253. JSTOR [JSTOR].
-                </p>
+				<p>
+					Works Cited
+					Baldwin, James. “Sonny's Blues.” Literature: The Human Experience, 12th ed., Bedford/St. Martin's, 2016, pp. 561–585.
+					Griffiths, Mark D. “Drug Use And Creativity.” Psychology Today, Sussex Publishers, 21 Feb. 2017, www.psychologytoday.com/us/blog/in-excess/201702/drug-use-and-creativity.
+					Katigbak, Raf. “Heroin Is the Most Dangerous Way to Increase Your Creativity.” Vice, 24 Apr. 2014, www.vice.com/en_us/article/8gd8bx/heroin-is-the-most-dangerous-way-to-increase-your-creativity.
+					Singer, Merrill, and Greg Mirhej. “High Notes.” Journal of Ethnicity in Substance Abuse, vol. 5, no. 4, 2006, pp. 1–38.
+					Tolson, Gerald H., and Michael J. Cuyjet. “Jazz and Substance Abuse: Road to Creative Genius or Pathway to Premature Death.” International Journal of Law and Psychiatry, vol. 30, no. 6, 2007, pp. 530–538. ScienceDirect.
+					Winick, Charles. “The Use of Drugs by Jazz Musicians.” Social Problems, vol. 7, no. 3, 1959, pp. 240–253. JSTOR [JSTOR].
+				</p>
 
-            </div>
-        </article>
-
-
-    </main>
-    <div class="back-to-top">
-        <a href="#">Back to Top</a>
-    </div>
-    <hr class="mobile-first">
-    <h1>
-        Contact Me!
-    </h1>
-
-    <section id="form-container" class="form-container">
-
-        <form method="POST" action="https://formspree.io/g00266522@stu.raritanval.edu">
-            <fieldset>
-                <legend> Send me anything! </legend>
-                <h4>Email</h4>
-                <input type="email" name="email" placeholder="Your email here">
-                <br>
-                <fieldset>
-                    <legend> I would like a reply </legend>
-                    <input type="radio" id="Yes" name="emailreply"> <label for="Yes">Yes</label><br>
-
-                    <input type="radio" id="No" name="emailreply"> <label for="No">No</label>
-                    <br>
-                </fieldset>
-                <h4>Message</h4>
-                <textarea name="message" placeholder="Your message here"></textarea>
-                <br>
-                <button type="submit">Send email</button>
+			</div>
+		</article>
 
 
-            </fieldset>
-        </form>
+	</main>
+	<div class="back-to-top">
+		<a href="#">Back to Top</a>
+	</div>
+	<hr class="mobile-first">
+	<h1>
+		Contact Me!
+	</h1>
+
+	<section id="form-container" class="form-container">
+
+		<form method="POST" action="https://formspree.io/g00266522@stu.raritanval.edu">
+			<fieldset>
+				<legend> Send me anything! </legend>
+				<h4>Email</h4>
+				<input type="email" name="email" placeholder="Your email here">
+				<br>
+				<fieldset>
+					<legend> I would like a reply </legend>
+					<input type="radio" id="Yes" name="emailreply"> <label for="Yes">Yes</label><br>
+
+					<input type="radio" id="No" name="emailreply"> <label for="No">No</label>
+					<br>
+				</fieldset>
+				<h4>Message</h4>
+				<textarea name="message" placeholder="Your message here"></textarea>
+				<br>
+				<button type="submit">Send email</button>
 
 
-    </section>
-    <hr>
-
-    <footer>
-        <p class="footer">Nicky Gundersen &#169; 2019</p>
-    </footer>
-    <div class="back-to-top">
-        <a href="#">Back to Top</a>
-    </div>
-    <br class="mobile-first"><br class="mobile-first">
-    <script>
-        let mainNav = document.getElementById('js-menu');
-        let navBarToggle = document.getElementById('js-navbar-toggle');
-        let symbolToggle = document.getElementById('symbol-toggle');
+			</fieldset>
+		</form>
 
 
-        navBarToggle.addEventListener('click', function() {
-            mainNav.classList.toggle('active');
-            if (symbolToggle.classList.contains('fa-bars')) {
-                symbolToggle.classList.remove('fa-bars');
-                symbolToggle.classList.add('fa-times');
-            } else {
-                symbolToggle.classList.remove('fa-times');
-                symbolToggle.classList.add('fa-bars');
-            }
-        });
+	</section>
+	<hr>
 
-    </script>
+	<footer>
+		<p class="footer">Nicky Gundersen &#169; 2019</p>
+	</footer>
+	<div class="back-to-top">
+		<a href="#">Back to Top</a>
+	</div>
+	<br class="mobile-first"><br class="mobile-first">
+	<script>
+		let mainNav = document.getElementById('js-menu');
+		let navBarToggle = document.getElementById('js-navbar-toggle');
+		let symbolToggle = document.getElementById('symbol-toggle');
+
+
+		navBarToggle.addEventListener('click', function() {
+			mainNav.classList.toggle('active');
+			if (symbolToggle.classList.contains('fa-bars')) {
+				symbolToggle.classList.remove('fa-bars');
+				symbolToggle.classList.add('fa-times');
+			} else {
+				symbolToggle.classList.remove('fa-times');
+				symbolToggle.classList.add('fa-bars');
+			}
+		});
+
+	</script>
 
 
 
